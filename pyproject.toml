@@ -7,7 +7,17 @@ authors = [
     { name = "gladsonits", email = "gladson.bits@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "email-validator>=2.3.0",
+    "ipykernel>=7.3.0",
+    "langchain>=1.4.0",
+    "langchain-core>=1.6.2",
+    "langchain-ollama>=1.1.0",
+    "load-dotenv>=0.1.0",
+    "ollama>=0.6.2",
+    "openai>=3.8.0",
+    "pydantic>=2.13.5",
+]
 
 [project.scripts]
 langchain-tutorial = "langchain_tutorial:main"
